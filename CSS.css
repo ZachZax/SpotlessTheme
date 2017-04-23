@@ -1,0 +1,164 @@
+/*Edit the header Background*/
+
+#header{
+    height:140px;
+    background-color:white;
+    border:none;
+}
+#header-img.default-header{ display: none; }
+#header .tabmenu li a{
+     position:relative;
+     border:0;
+     background:transparent;
+     font-family: "Segoe UI",Helvetica,sans-serif;
+     font-weight:400;
+     font-size:14px;
+    top:80px;
+
+
+}
+
+.side md h{
+    color:blue;
+}
+#header .tabmenu li a:hover{
+     color:orange;
+}
+#sr-header-area{
+    background:transparent:
+}
+#sr-header-area {
+    transition: opacity .3s;
+    opacity: .4;
+    height: 24px;
+    background-color: white;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+#header-bottom-right{
+     background:transparent;
+     font-family: "Segoe UI",Helvetica,sans-serif;
+
+}
+#header-bottom-right .preferences {
+ font-family: "Segoe UI",Helvetica,sans-serif;
+
+}
+#header-bottom-right * { font-weight:400;
+    font-family: "Segoe UI",Helvetica,sans-serif;
+    font-size:12px;
+}
+.pagename a  {
+    text-indent: -999em;
+    background: url(%%headerLogo%%);
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    display:inline;
+    margin-left: -250px;
+}
+
+
+
+/*Edit the Body*/
+#body{
+   background-color:white;
+}
+.thing{
+   background:transparent;
+}
+/*Side*/
+.nub{
+   display:none;
+}
+
+    .submit .morelink a{
+         color:white;
+        font-size:150%;
+}
+.submit .morelink{
+border:none;
+font-family:"Segoe UI",Helvetica,sans-serif;
+        font-weight:300;
+	background:#1D2951;
+        color:white;
+
+       background-color: #5F99CF;
+    height: 34px;
+
+}
+
+.submit-link .morelink {
+    background: url(%%link-background%%) no-repeat top left;
+    background-position:10px 2px;
+
+    background-color: #5F99CF;
+}
+.submit-text .morelink {
+    background: url(%%text-background%%) no-repeat top left;
+    background-position:10px 2px;
+
+    background-color: #5F99CF;
+}
+.titlebox .fancy-toggle-button .add {
+
+
+        color:#fff;
+
+}
+.titlebox .subscribe-button {
+    display: block;
+    text-align: center;
+}
+.side .fancy-toggle-button>.option.add, .side .fancy-toggle-button>.option.remove, .res .RESshortcutside, .res .RESshortcutside.remove, .res .RESDashboardToggle, .res .RESDashboardToggle.remove {
+ font-family: "Segoe UI",Helvetica,sans-serif;
+    color: white;
+    padding: 8px;
+    width: 190px;
+    height: auto;
+    line-height: 1.5em;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 8px;
+    background: #5F99CF;
+    border-radius: 1px;
+    border:none;
+}
+.subscribers{
+font-family: "Segoe UI",Helvetica,sans-serif;
+   position:relative;
+   left:125px;
+  font-size:14px;
+color:orange;
+}
+.users-online{
+font-family: "Segoe UI",Helvetica,sans-serif;
+  font-size:14px;
+  position:relative;
+ left:70px;
+color:orange;
+}
+
+
+
+
+.side h3{
+font-family: "Segoe UI",Helvetica,sans-serif;
+text-align:center;
+font-weight:400;
+padding-top:15px;
+padding-bottom:15px;
+color:white;
+background-color:brown;
+
+}
+div.titlebox .md ul li {
+   color:orange;
+
+}
+git remote add origin https://github.com/ZachZax/Spotless.git
+git push -u origin master
